@@ -47,7 +47,8 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_margin="20dp"
-        android:background="@color/colorPrimary"
+        app:loadingColor="@color/design_default_color_primary_dark"
+        app:notLoadingColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
